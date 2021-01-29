@@ -6,4 +6,4 @@ rm -rf package/lean/default-settings
 sed -i 's/$(STAGING_DIR_HOST)\/bin\/upx --lzma --best $(GO_PKG_BUILD_BIN_DIR)\/v2ray-plugin || true//g' package/lean/v2ray-plugin/Makefile
 sed -i 's/$(STAGING_DIR_HOST)\/bin\/upx --lzma --best $$(1)\/usr\/bin\/$(1) || true//g' package/lean/frp/Makefile
 rm ../lean-lede -rf
-sed -i '$a\src-git helloworld https:\/\/github.com\/fw876\/helloworld' feeds.conf.default
+#sed -i '$a\src-git helloworld https:\/\/github.com\/fw876\/helloworld' feeds.conf.default
